@@ -1,0 +1,11 @@
+﻿## Interface: 60100
+## LoadOnDemand: 0r
+## Title: Vindicta Raid Tools Core OSE
+## Author: Silentkernel.fr
+## Version: 1.0.1
+
+config.lua
+VindictaRaidToolsCore.lua
+Gruul.lua
+TheIronMaidens.lua
+Blackhand.lua
