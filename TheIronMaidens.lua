@@ -12,11 +12,11 @@ local timeBeforeHideShip = 5
 local function getShipCount(message) 
 then
 	local result = 0
-	if message == (marakName ~ triggerShip) then
+	if message == (marakName .. triggerShip) then
 		result = 1
-	elseif message == (sorkaName ~ triggerShip) then
+	elseif message == (sorkaName .. triggerShip) then
 		result = 2
-	elseif message == (garanName ~ triggerShip) then
+	elseif message == (garanName .. triggerShip) then
 		result = 3
 	end
 end
