@@ -10,7 +10,6 @@ local garanName = "Admiral Gar'an "
 local timeBeforeHideShip = 5
 
 local function getShipCount(message) 
-then
 	local result = 0
 	if message == (marakName .. triggerShip) then
 		result = 1
@@ -19,6 +18,7 @@ then
 	elseif message == (garanName .. triggerShip) then
 		result = 3
 	end
+	return result
 end
 
 local function goToShip(shipCount)
